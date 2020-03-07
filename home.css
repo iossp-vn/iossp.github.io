@@ -1,0 +1,73 @@
+*{ margin: 0px; padding: 0px;}
+.btnnonjb	{
+    border-radius: 10px;
+    max-width: 100px;
+  	background-color: #3643ff;
+  	min-width: 160px;
+  	min-height: 100px;
+  	color: white;
+  	font-size: 25px;
+  	border: inset;
+  	border-width: 5px;
+  	cursor: pointer;
+  	animation: moveright1 2s;
+        	}
+.btnjb	{
+    border-radius: 10px;
+    max-width: 100px;
+  	background-color: #ff0000;
+  	min-width: 160px;
+  	min-height: 100px;
+  	color: white;
+  	padding: 20px;
+  	font-size: 25px;
+  	border: inset;
+  	border-width: 5px;
+  	cursor: pointer;
+  	animation: moveright2 2s;
+        	}
+.jb	{
+    border-radius: 100px;
+    max-width: 100px;
+  	background-color: gray;
+  	min-width: 160px;
+  	min-height: 100px;
+  	color: #FF00FF;
+  	padding: 20px;
+  	font-size: 25px;
+  	border: inset;
+  	border-width: 5px;
+  	cursor: pointer;
+  	animation: moveright3 2s;
+        	}
+.btnnonjb:hover,
+.btnjb:hover {
+  background-color: black;
+}
+.jb:hover{
+	background-color: white;
+}
+@-webkit-keyframes moveright1{
+  from{
+    transform: translateX(-50%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes moveright2{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes moveright3{
+  from{
+    transform: translateX(-150%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
