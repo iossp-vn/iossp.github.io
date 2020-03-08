@@ -11,7 +11,7 @@
   	cursor: pointer;
   	animation: moveright1 2s;
     position: absolute;
-    left: 59%;
+    left: 320px;
     top: 20%;
         	}
 .btnjb	{
@@ -26,7 +26,7 @@
     cursor: pointer;
   	animation: moveright2 2s;
     position: absolute;
-    left: 59%;
+    left: 320px;
     top: 40%;
         	}
 .jb	{
@@ -41,14 +41,18 @@
     cursor: pointer;
   	animation: moveright3 2s;
     position: absolute;
-    left: 59%;
+    left: 320px;
     top: 60%;
         	}
 .btnnonjb:hover,
-.btnjb:hover {
+.btnjb:hover,
+.btnnonjb:focus,
+.btnjb:focus
+{
   background-color: black;
 }
-.jb:hover{
+.jb:hover,
+.jb:focus{
 	background-color: gray;
 }
 @-webkit-keyframes moveright1{
