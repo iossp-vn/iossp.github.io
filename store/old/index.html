@@ -163,7 +163,7 @@ onerror = console.error = console.warn = function (e) {
 				<div class="col-12 text-bold h6 mb-0 icon-more" @click.prevent="$set(inforApp, 'isOpenDescription', !inforApp.isOpenDescription)">
 					Description
 				</div>
-				<div class="col-12 mt-3 small-14 text-secondary detail-close" :class="{'detail-open': inforApp.isOpenDescription}" v-html="marked(inforApp.app.description)">
+				<div class="col-12 mt-3 small-14 text-secondary detail-open" :class="{'detail-open': inforApp.isOpenDescription}" v-html="marked(inforApp.app.description)">
 
 				</div>
 			</div>
