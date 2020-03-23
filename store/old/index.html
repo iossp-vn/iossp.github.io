@@ -205,19 +205,19 @@ onerror = console.error = console.warn = function (e) {
 		<section class="container fixed-bottom bg-light py-1 toolbar" v-if="tabSelect != 'inforApp'">
 			<div class="row">
 				<div class="col-3 text-center line-height-0" @click="switchT('hot')">
-						<img :src="'/sote/svg/home' + (tabSelect == 'hot' ? '-selected.svg' : '.svg')" /><br>
+						<img :src="'/store/svg/home' + (tabSelect == 'hot' ? '-selected.svg' : '.svg')" /><br>
 						<small class="text-secondary">Home</small>
 				</div>
 				<div class="col-3 text-center line-height-0" @click="switchT('game')" @click.once="load('game')">
-						<img :src="'/sote/svg/game' + (tabSelect == 'game' ? '-selected.svg' : '.svg')" /><br>
+						<img :src="'/store/svg/game' + (tabSelect == 'game' ? '-selected.svg' : '.svg')" /><br>
 						<small class="text-secondary">Game</small>
 				</div>
 				<div class="col-3 text-center line-height-0" @click="switchT('app')" @click.once="load('app')">
-						<img :src="'/sote/svg/app' + (tabSelect == 'app' ? '-selected.svg' : '.svg')" /><br>
+						<img :src="'/store/svg/app' + (tabSelect == 'app' ? '-selected.svg' : '.svg')" /><br>
 						<small class="text-secondary">App</small>
 				</div>
 				<div class="col-3 text-center line-height-0" @click="tabSelect = 'search'">
-						<img :src="'/sote/svg/search' + (tabSelect == 'search' ? '-selected.svg' : '.svg')" /><br>
+						<img :src="'/store/svg/search' + (tabSelect == 'search' ? '-selected.svg' : '.svg')" /><br>
 						<small class="text-secondary">Search</small>
 				</div>
 			</div>
@@ -287,7 +287,7 @@ onerror = console.error = console.warn = function (e) {
 			<div class="my-3 row text-primary text-center">
 				<div class="col-12" v-if="isLoaded" @click="$emit('more')">
 					<div>Thêm</div>
-					<img src="/sote/svg/more.svg" class="loading" />
+					<img src="/store/svg/more.svg" class="loading" />
 				</div>
 				<div class="col-12" v-else>
 					<div>Đang tải...</div>
