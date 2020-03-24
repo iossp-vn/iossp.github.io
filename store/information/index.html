@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Page Title</title>
+		<title>iOS Support</title>
 		<link rel=stylesheet href="style.min.css"></link>
 		<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no, minium-scalable=1.0, maximum-scalable=1.0' charset="utf-8"/>
 		<script src="/js/polyfill-0.1.42.min.js"></script>
@@ -77,7 +77,7 @@
 			<div class="col-12 mt-3 h6" :key="'title'">
 				You may be interested in
 			</div>
-			<div class="col-3 col-sm-4 col-lg-2 col-xl-1 mb-3 text-center" v-for="(app, key) in inforApp.hotTrens" :key="equalKey(key)" @click="goto(key, app)">
+			<div class="col-3 col-sm-4 col-lg-2 col-xl-1 mb-3 text-center" v-for="(app, key) in inforApp.hotTrens" :key="equalKey(key)" @click="$root.goto(key, app)">
 				<img class="img-fluid icon-sm border" :src="app.icon" style="border-radius: 10px"/>
 				<div class="limit-line-1 small-80 text-bold mt-1">
 					{{ app.name }}
