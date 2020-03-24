@@ -77,7 +77,7 @@
 			<div class="col-12 mt-3 h6" :key="'title'">
 				You may be interested in
 			</div>
-			<div class="col-3 col-sm-4 col-lg-2 col-xl-1 mb-3 text-center" v-for="(app, key) in inforApp.hotTrens" :key="equalKey(key)" @click="$root.goto(key, app)">
+			<div class="col-3 col-sm-4 col-lg-2 col-xl-1 mb-3 text-center" v-for="(app, key) in inforApp.hotTrens" :key="equalKey(key)" @click="goto(key, app)">
 				<img class="img-fluid icon-sm border" :src="app.icon" style="border-radius: 10px"/>
 				<div class="limit-line-1 small-80 text-bold mt-1">
 					{{ app.name }}
@@ -111,6 +111,6 @@
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js" async></script>
-		<script src="script.min.js" async></script>
+		<script src="/js/script.min.js" async></script>
 	</body>
 </html>
