@@ -89,14 +89,14 @@
 				<div class="col-12">
 					<div class="input-group input-group-sm">
 						<div class="input-group-prepend">
-							<span class="input-group-text">Version</span>
+							<span class="input-group-text">Phiên bản</span>
 						</div>
 						<select class="form-control custom-select" ref="select-link">
 							<option v-for="(link, ver) in parseJSON(inforApp.app.versions)"
 :value="link"> {{ ver }} </option>
 						</select>
 						<div class="input-group-append">
-							<button class="btn btn-primary rounded-0" @click="open($refs['select-link'].value)"> Download </button>
+							<button class="btn btn-primary rounded-0" @click="open($refs['select-link'].value)"> Tải xuống </button>
 						</div>
 					</div>
 				</div>
