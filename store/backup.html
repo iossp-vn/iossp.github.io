@@ -2,11 +2,10 @@
 <html>
 	<head>
 		<title>iOS Support</title>
-		<link rel=stylesheet href="style.min.css"></link>
+		<link rel=stylesheet href="/css/style.min.css"></link>
 		<script src="/js/polyfill-0.1.42.min.js"></script>
 		<link rel=stylesheet href="/css/bootstrap.min.css"></link>
 		<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no, minium-scalable=1.0, maximum-scalable=1.0' charset="utf-8"/>
-
 <script>
 onerror = console.error = console.warn = function (e) {
    alert([].slice.call(arguments).join(" | "))
@@ -88,12 +87,12 @@ onerror = console.error = console.warn = function (e) {
 		
 		<!-- information app -->
 		<section class="container" v-else-if="tabSelect == 'inforApp'">
-			<div class="row" v-if="viewer == 'webclip'">
-				<div class="col-12 py-2 border-bottom" @click="back()" style="font-weight: 600;">
+			<!--<div class="row">
+				<div class="col-12 my-2" @click="back()">
 					&lt; Back
 				</div>
-			</div>
-			<div class="row mt-3">
+			</div>-->
+			<div class="row">
 				<div class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2">	
 					<img class="icon border" :src="inforApp.app.icon" :key="inforApp.app.icon">
 				</div>
@@ -110,7 +109,7 @@ onerror = console.error = console.warn = function (e) {
 			<!-- Information -->
 			<div class="row mt-5" v-if="!!inforApp.app.infor">
 				<div class="col-12 text-bold h6 mb-0">
-					Thông tin ứng dụng
+					Information
 				</div>
 				<div class="col-12">
 					<table class="table table-sm w3-7 border-0">
@@ -137,7 +136,7 @@ onerror = console.error = console.warn = function (e) {
 			<!-- Description -->
 			<div class="row mt-3" v-if="!!inforApp.app.description">
 				<div class="col-12 text-bold h6 mb-0 icon-more" @click.prevent="$set(inforApp, 'isOpenDescription', !inforApp.isOpenDescription)">
-					Mô tả
+					Description
 				</div>
 				<div class="col-12 mt-3 small-14 text-secondary detail-close detail-open" v-html="marked(inforApp.app.description)">
 
@@ -162,14 +161,14 @@ onerror = console.error = console.warn = function (e) {
 				<div class="col-12">
 					<div class="input-group input-group-sm">
 						<div class="input-group-prepend">
-							<span class="input-group-text">Phiên bản</span>
+							<span class="input-group-text">Version</span>
 						</div>
 						<select class="form-control custom-select" ref="select-link">
 							<option v-for="(link, ver) in JSON.parse('{' + decodeURIComponent(atob(inforApp.app.versions)) + '}')"
 :value="link"> {{ ver }} </option>
 						</select>
 						<div class="input-group-append">
-							<button class="btn btn-primary rounded-0" @click="open($refs['select-link'].value)"> Tải xuống </button>
+							<button class="btn btn-primary rounded-0" @click="open($refs['select-link'].value)"> Download </button>
 						</div>
 					</div>
 				</div>
@@ -272,10 +271,8 @@ onerror = console.error = console.warn = function (e) {
 			</div>
 		</section>
 	</template>
-
 		<script src="/js/my.js" async></script>
 		<script src="/js/libmy.js"></script>
-		<script src="/js/search.params.min.js" async></script>
 		<script src="/js/vue.min.js" async></script>
 		<link rel=stylesheet href="/css/limit-line.min.css"></link>
 		<script src="/js/vue-carousel-3d.min.js" async></script>
@@ -283,7 +280,6 @@ onerror = console.error = console.warn = function (e) {
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js" async></script>
-		<script src="script.min.js" async></script>
-
+		<script src="/js/script.min.js" async></script>
 	</body>
 </html>
