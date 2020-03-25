@@ -237,7 +237,7 @@ onerror = console.error = console.warn = function (e) {
 	:width="240"
 	v-if="swipers.length">
 	<slide v-for="(slide, i) in swipers" :index="i" :key="slide + i">
-	  <img :src=slide style="border-radius: 15px"/>
+	  <img :src=slide style="border-radius:15px;height:100%"/>
 	</slide>
 </carousel-3d>
 				</transition>
