@@ -18,7 +18,7 @@ Name: Icon Resizer iOS11
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Chỉnh sửa kích cỡ icon, ẩn nền folder, ẩn tên app.
-Author: Nigga Boy <zjpper@gmail.com>
+Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), preferenceloader
@@ -32,7 +32,7 @@ Name: Labeless X
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Ẩn tên ứng dụng homescreen(10/11).
-Author: Nigga Boy <zjpper@gmail.com>
+Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate
@@ -69,7 +69,7 @@ Package: com.nigga.ultrasn0w
 Name: Ultrasn0w
 Version: 0.6
 Architecture: iphoneos-arm
-Description: An iPhone 3G soft unlock application for 3.0 (unlock mạng cho iphone 3G/3GS, không cần dùng sim ghép nhé niggas)
+Description: An iPhone 3G soft unlock application for 3.0 (unlock mạng cho iphone 3G/3GS, không cần dùng sim ghép)
 Author: Dev Team <blog@iphone-dev.org>
 Section: Utilities
 Maintainer: iOS Support <iossp@hotmail.com>
@@ -81,8 +81,8 @@ Package: com.nigga.ytforoldios
 Name: Youtube For Old iOS
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Mang youtube hoạt động trở lại trên ios cũ (6/7).
-Author: Nigga Boy <zjpper@gmail.com>
+Description: Mang youtube hoạt động trở lại trên ios cũ (6/7/8).
+Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Pre-Depends: mobilesubstrate
@@ -90,3 +90,16 @@ Depends: mobilesubstrate
 Filename: ./Debs/com.nigga.ytforoldios_1.0_iphoneos-arm.deb
 Size: 2234
 MD5sum: 33da3929054f2a1073261cae43c37f1c
+
+Package: com.nigga.carrier12
+Name: Carrier12
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Đổi tên nhà mạng cho iOS 12.
+Author: Anh Nigga <zjpper@gmail.com>
+Section: Tweaks
+Maintainer: iOS Support <iossp@hotmail.com>
+Depends: mobilesubstrate
+Filename: ./Debs/com.nigga.carrier12_0.0.1-4+debug_iphoneos-arm
+Size: 19438
+MD5sum: cc9ccdce8e8e98026a092a98b365eab7
