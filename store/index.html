@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<title>iOS Support</title>
-		<link rel=stylesheet href="/css/style.min.css"></link>
-		<script src="/js/polyfill-0.1.42.min.js"></script>
-		<link rel=stylesheet href="/css/bootstrap.min.css"></link>
+		<link rel=stylesheet href="../css/style.min.css"></link>
+		<script src="../js/polyfill-0.1.42.min.js"></script>
+		<link rel=stylesheet href="../css/bootstrap.min.css"></link>
 		<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no, minium-scalable=1.0, maximum-scalable=1.0' charset="utf-8"/>
 
 <script>
@@ -211,7 +211,7 @@ onerror = console.error = console.warn = function (e) {
 -->
 
 				<div class="col-3">
-					<img class="icon-sm border" :src="app.icon" />
+					<img class="icon-sm" :src="app.icon" />
 				</div>
 	<!-- icon !important -->
 				<div class="col py-2 ml-2">
@@ -248,7 +248,7 @@ onerror = console.error = console.warn = function (e) {
 					<img src="svg/hot.svg" /> Hot
 				</div>
 				<div class="col-3 col-sm-4 col-lg-2 col-xl-1 mb-3 text-center" v-for="(app, key) in appsHot" :key="equalKey(key)" @click="$root.goto(key, app)">
-					<img class="img-fluid icon-sm border" :src="app.icon" style="border-radius: 10px"/>
+					<img class="img-fluid icon-sm" :src="app.icon" style="border-radius: 10px"/>
 					<div class="limit-line-1 small-80 text-bold mt-1">
 						{{ app.name }}
 					</div>
@@ -267,19 +267,19 @@ onerror = console.error = console.warn = function (e) {
 				</div>
 				<div class="col-12" v-else>
 					<div>Đang tải...</div>
-					<img src="svg/loading.svg" style="width:2rem; height: 2rem"/>
+					<img src="svg/loading.svg" style="width:1.5rem;height:1.5rem"/>
 				</div>
 			</div>
 		</section>
 	</template>
 
-		<script src="/js/my.js" async></script>
-		<script src="/js/libmy.js" async></script>
-		<script src="/js/search.params.min.js" async></script>
-		<script src="/js/vue.min.js" async></script>
+		<script src="../js/my.js" async></script>
+		<script src="../js/libmy.js" async></script>
+		<script src="../js/search.params.min.js" async></script>
+		<script src="../js/vue.min.js" async></script>
 		<link rel=stylesheet href="/css/limit-line.min.css"></link>
-		<script src="/js/vue-carousel-3d.min.js" async></script>
-		<script src="/js/marked.min.js" async></script>
+		<script src="../js/vue-carousel-3d.min.js" async></script>
+		<script src="../js/marked.min.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js" async></script>
 		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js" async></script>
