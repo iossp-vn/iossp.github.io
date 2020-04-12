@@ -78,8 +78,8 @@ Size: 7694
 MD5sum: f9a50da7a3986e0cdf6b43fe039fe1d7
 
 Package: com.nigga.ytforoldios
-Name: Youtube For Old iOS
-Version: 1.0
+Name: Youtube For Old iOS 6/7/8
+Version: 2.0
 Architecture: iphoneos-arm
 Description: Mang youtube hoạt động trở lại trên ios cũ (6/7/8).
 Author: Anh Nigga <zjpper@gmail.com>
@@ -116,3 +116,18 @@ Maintainer: Anh Nigga <iossp@hotmail.com>
 Filename: ./Debs/com.nigga.yttools_2.0_iphoneos-arm.deb
 Size: 24066
 MD5sum: 345bf5ce8e57225a99bf871cea62c61a
+
+Package: com.iossp.youtubefix3-4-5
+Name: Youtube For Old iOS 3/4/5
+Version: 1.0
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 3.0)
+Architecture: iphoneos-arm
+Author: Anh Nigga <zjpper@gmail.com>
+Section: Tweaks
+Description: Mang Youtube (trên ios 1-5 tên là video có biểu tượng là cái TV) hoạt động trở lại trên iOS 3/4/5.
+Depiction: https://i.ytimg.com/vi/FTk8wQ3DJ5A/maxresdefault.jpg
+Maintainer: iOS Support <iossp@hotmail.com>
+Filename: ./Debs/com.iossp.youtubefix3-4-5_1.0_iphoneos-arm.deb
+Size: 32972
+MD5sum: 6d3b92fd37d13b2435a9f6bcc95da8a3
