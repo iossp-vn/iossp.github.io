@@ -126,7 +126,6 @@ Architecture: iphoneos-arm
 Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Description: Mang Youtube (trên ios 1-5 tên là video có biểu tượng là cái TV) hoạt động trở lại trên iOS 3/4/5.
-Depiction: https://i.ytimg.com/vi/FTk8wQ3DJ5A/maxresdefault.jpg
 Maintainer: iOS Support <iossp@hotmail.com>
 Filename: ./Debs/com.iossp.youtubefix3-4-5_1.0_iphoneos-arm.deb
 Size: 32972
