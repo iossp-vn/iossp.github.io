@@ -9,7 +9,7 @@ Maintainer: iOS Support <iossp@hotmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
 Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Icon: file:///Applications/Anemone.app/icon.png
-Filename: ./Debs/com.nigga.anemone_2.1.7-7_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.anemone_2.1.7-7_iphoneos-arm.deb
 Size: 4096412
 MD5sum: 25e4e284cbb17a6c368d6c98b3d6b803
 
@@ -23,7 +23,7 @@ Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), preferenceloader
 Icon: file:///Library/PreferenceBundles/iconresizerforios11.bundle/Icon-Small@2x.png
-Filename: ./Debs/com.nigga.iconresizerios11_1.0_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.iconresizerios11_1.0_iphoneos-arm.deb
 Size: 83152
 MD5sum: 52d1af260c9652ac542f54bd9c938f2d
 
@@ -36,7 +36,7 @@ Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate
-Filename: ./Debs/com.nigga.labelessx_1.0_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.labelessx_1.0_iphoneos-arm.deb
 Size: 4138
 MD5sum: d8133fc8dd9721e878688eafd232e338
 
@@ -49,7 +49,7 @@ Author: Kurrt <dev@kurrt.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate, preferenceloader
-Filename: ./Debs/com.nigga.lifeguard_1.0_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.lifeguard_1.0_iphoneos-arm.deb
 Size: 136576
 MD5sum: 7c6dc12d4c59f8177fbbe970cd429d99
 
@@ -61,7 +61,7 @@ Description: Xoá jailbreak ios <10.2.1 mà không làm mất dữ liệu.
 Author: pwn20wnd & coolstarorg
 Section: System
 Maintainer: iOS Support <iossp@hotmail.com>
-Filename: ./Debs/com.nigga.remover_1.0.3_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.remover_1.0.3_iphoneos-arm.deb
 Size: 198222
 MD5sum: 4564041330f27dd98b1dd6d2862adaa1
 
@@ -73,7 +73,7 @@ Description: An iPhone 3G soft unlock application for 3.0 (unlock mạng cho iph
 Author: Dev Team <blog@iphone-dev.org>
 Section: Utilities
 Maintainer: iOS Support <iossp@hotmail.com>
-Filename: ./Debs/com.nigga.ultrasn0w_0.6_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.ultrasn0w_0.6_iphoneos-arm.deb
 Size: 7694
 MD5sum: f9a50da7a3986e0cdf6b43fe039fe1d7
 
@@ -87,7 +87,7 @@ Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Pre-Depends: mobilesubstrate
 Depends: mobilesubstrate
-Filename: ./Debs/com.nigga.ytforoldios_1.0_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.ytforoldios_1.0_iphoneos-arm.deb
 Size: 2234
 MD5sum: 33da3929054f2a1073261cae43c37f1c
 
@@ -100,7 +100,7 @@ Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate
-Filename: ./Debs/com.nigga.carrier12_0.0.1-4+debug_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.carrier12_0.0.1-4+debug_iphoneos-arm.deb
 Size: 19438
 MD5sum: cc9ccdce8e8e98026a092a98b365eab7
 
@@ -113,7 +113,7 @@ Author: Justin Petkovic
 Section: Tweaks
 Description: Chặn quảng cáo, nghe nhạc nền Youtube.
 Maintainer: Anh Nigga <iossp@hotmail.com>
-Filename: ./Debs/com.nigga.yttools_2.0_iphoneos-arm.deb
+Filename: .//Debs/com.nigga.yttools_2.0_iphoneos-arm.deb
 Size: 24066
 MD5sum: 345bf5ce8e57225a99bf871cea62c61a
 
@@ -127,6 +127,6 @@ Author: Anh Nigga <zjpper@gmail.com>
 Section: Tweaks
 Description: Mang Youtube (là app mặc định của iOS 1-5 có tên là video với biểu tượng là cái TV) hoạt động trở lại trên iOS 3/4/5.
 Maintainer: iOS Support <iossp@hotmail.com>
-Filename: ./Debs/com.iossp.youtubefix3-4-5_1.0_iphoneos-arm.deb
+Filename: .//Debs/com.iossp.youtubefix3-4-5_1.0_iphoneos-arm.deb
 Size: 32972
 MD5sum: 6d3b92fd37d13b2435a9f6bcc95da8a3
