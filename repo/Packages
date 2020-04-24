@@ -1,132 +1,132 @@
-Package: com.nigga.anemone
+Package: com.iossp.fixtube3-4-5
+Name: Youtube For Old iOS 3/4/5
+Architecture: iphoneos-arm
+Description: Fix Youtube on iOS 3/4/5.
+Depends: mobilesubstrate, firmware (>= 3.0)
+Pre-Depends: dpkg (>= 1.13.25-5)
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: Mọt Táo <zjpper@gmail.com>
+Section: Tweaks
+Version: 1.0
+Filename: .//Debs/com.iossp.fixtube3-4-5_1.0_iphoneos-arm.deb
+Size: 32866
+MD5sum: 70547cfb3ce7fdabf2d146823643f2be
+
+Package: com.iossp.anemone
 Name: Anemone ft Font
 Version: 2.1.7-7
 Architecture: iphoneos-arm
-Description: Mod theme cho ios, bản này có tích hợp mod font.
+Description: An awesome theming engine, you can mod font on this version.
 Author: AnemoneTeam <anemonetheming@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
 Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Icon: file:///Applications/Anemone.app/icon.png
-Filename: .//Debs/com.nigga.anemone_2.1.7-7_iphoneos-arm.deb
-Size: 4096412
-MD5sum: 25e4e284cbb17a6c368d6c98b3d6b803
+Filename: .//Debs/com.iossp.anemone_2.1.7-7_iphoneos-arm.deb
+Size: 4096392
+MD5sum: 343490a11906d91d0e8324932210619d
 
-Package: com.nigga.iconresizerios11
+Package: com.iossp.carrier12
+Name: Carrier12
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Change Carrier name IOS 12.
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: Null
+Section: Tweaks
+Version: 0.0.1-4+debug
+Filename: .//Debs/com.iossp.carrier12_0.0.1-4+debug_iphoneos-arm.deb
+Size: 19462
+MD5sum: a94593c9d942060065f0058cd7c9f26f
+
+Package: com.iossp.iconresizerios11
 Name: Icon Resizer iOS11
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Chỉnh sửa kích cỡ icon, ẩn nền folder, ẩn tên app.
-Author: Anh Nigga <zjpper@gmail.com>
+Description: Resize Icon, Remove label/folder background.
+Author: Null
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), preferenceloader
 Icon: file:///Library/PreferenceBundles/iconresizerforios11.bundle/Icon-Small@2x.png
-Filename: .//Debs/com.nigga.iconresizerios11_1.0_iphoneos-arm.deb
-Size: 83152
-MD5sum: 52d1af260c9652ac542f54bd9c938f2d
+Filename: .//Debs/com.iossp.iconresizerios11_1.0_iphoneos-arm.deb
+Size: 83140
+MD5sum: 98c1ce992894356c5066d00415567aa6
 
-Package: com.nigga.labelessx
+Package: com.iossp.labelessx
 Name: Labeless X
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Ẩn tên ứng dụng homescreen(10/11).
-Author: Anh Nigga <zjpper@gmail.com>
+Description: Remove icon labels on iOS 10/11.
+Author: Null
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate
-Filename: .//Debs/com.nigga.labelessx_1.0_iphoneos-arm.deb
-Size: 4138
-MD5sum: d8133fc8dd9721e878688eafd232e338
+Filename: .//Debs/com.iossp.labelessx_1.0_iphoneos-arm.deb
+Size: 4106
+MD5sum: 68c468f1118fd5ced8e1ba5633c99d7e
 
-Package: com.nigga.lifeguard
+Package: com.iossp.lifeguard
 Name: Lifeguard
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Respring hoặc vào safemode bằng nút cứng. Thích hợp khi máy bị treo.
+Description: Respring/Safemode iDevices with buttons (volume/home/power).
 Author: Kurrt <dev@kurrt.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Depends: mobilesubstrate, preferenceloader
-Filename: .//Debs/com.nigga.lifeguard_1.0_iphoneos-arm.deb
-Size: 136576
-MD5sum: 7c6dc12d4c59f8177fbbe970cd429d99
+Filename: .//Debs/com.iossp.lifeguard_1.0_iphoneos-.deb
+Size: 136578
+MD5sum: b2e7953870771168b4a9a5698a20e355
 
-Package: com.nigga.remover
+Package: com.iossp.remover
 Name: Remover
 Version: 1.0.3
 Architecture: iphoneos-arm
-Description: Xoá jailbreak ios <10.2.1 mà không làm mất dữ liệu.
+Description: Remove JailBreak without losing data (<10.2.1).
 Author: pwn20wnd & coolstarorg
 Section: System
 Maintainer: iOS Support <iossp@hotmail.com>
-Filename: .//Debs/com.nigga.remover_1.0.3_iphoneos-arm.deb
-Size: 198222
-MD5sum: 4564041330f27dd98b1dd6d2862adaa1
+Filename: .//Debs/com.iossp.remover_1.0.3_iphoneos-arm.deb
+Size: 198210
+MD5sum: 4beb7519ed9309505761ca94a8fc4220
 
-Package: com.nigga.ultrasn0w
+Package: com.iossp.ultrasn0w
 Name: Ultrasn0w
 Version: 0.6
 Architecture: iphoneos-arm
-Description: An iPhone 3G soft unlock application for 3.0 (unlock mạng cho iphone 3G/3GS, không cần dùng sim ghép)
+Description: An iPhone 3G/3GS soft unlock application for 3.0.
 Author: Dev Team <blog@iphone-dev.org>
 Section: Utilities
 Maintainer: iOS Support <iossp@hotmail.com>
-Filename: .//Debs/com.nigga.ultrasn0w_0.6_iphoneos-arm.deb
-Size: 7694
-MD5sum: f9a50da7a3986e0cdf6b43fe039fe1d7
+Filename: .//Debs/com.iossp.ultrasn0w_0.6_iphoneos-arm.deb
+Size: 7616
+MD5sum: 29a588c385d794dd8eb598c5e9de7e8f
 
-Package: com.nigga.ytforoldios
+Package: com.iossp.fixtube6-7-8
 Name: Youtube For Old iOS 6/7/8
-Version: 2.0
+Version: 1.0
 Architecture: iphoneos-arm
-Description: Mang youtube hoạt động trở lại trên ios cũ (6/7/8).
-Author: Anh Nigga <zjpper@gmail.com>
+Description: Fix Youtube on iOS 6/7/8.
+Author: Mọt  <zjpper@gmail.com>
 Section: Tweaks
 Maintainer: iOS Support <iossp@hotmail.com>
 Pre-Depends: mobilesubstrate
 Depends: mobilesubstrate
-Filename: .//Debs/com.nigga.ytforoldios_1.0_iphoneos-arm.deb
-Size: 2234
-MD5sum: 33da3929054f2a1073261cae43c37f1c
+Filename: .//Debs/com.iossp.fixtube6-7-8_1.0_iphoneos-arm.deb
+Size: 2202
+MD5sum: 507cf4826efccf0351cb8fd4fd7b9824
 
-Package: com.nigga.carrier12
-Name: Carrier12
-Version: 1.0
-Architecture: iphoneos-arm
-Description: Đổi tên nhà mạng cho iOS 12.
-Author: Anh Nigga <zjpper@gmail.com>
-Section: Tweaks
-Maintainer: iOS Support <iossp@hotmail.com>
-Depends: mobilesubstrate
-Filename: .//Debs/com.nigga.carrier12_0.0.1-4+debug_iphoneos-arm.deb
-Size: 19438
-MD5sum: cc9ccdce8e8e98026a092a98b365eab7
-
-Package: com.nigga.yttools
-Name: YouTube Tools
+Package: com.iossp.yttools6
+Name: YouTube Tools Old
 Version: 2.0
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Justin Petkovic
 Section: Tweaks
-Description: Chặn quảng cáo, nghe nhạc nền Youtube.
-Maintainer: Anh Nigga <iossp@hotmail.com>
-Filename: .//Debs/com.nigga.yttools_2.0_iphoneos-arm.deb
-Size: 24066
-MD5sum: 345bf5ce8e57225a99bf871cea62c61a
-
-Package: com.iossp.youtubefix3-4-5
-Name: Youtube For Old iOS 3/4/5
-Version: 1.0
-Pre-Depends: dpkg (>= 1.13.25-5)
-Depends: mobilesubstrate, firmware (>= 3.0)
-Architecture: iphoneos-arm
-Author: Anh Nigga <zjpper@gmail.com>
-Section: Tweaks
-Description: Mang Youtube (là app mặc định của iOS 1-5 có tên là video với biểu tượng là cái TV) hoạt động trở lại trên iOS 3/4/5.
+Description: Block Ads, play in background on Youtube (iOS 6).
 Maintainer: iOS Support <iossp@hotmail.com>
-Filename: .//Debs/com.iossp.youtubefix3-4-5_1.0_iphoneos-arm.deb
-Size: 32972
-MD5sum: 6d3b92fd37d13b2435a9f6bcc95da8a3
+Filename: .//Debs/com.iossp.yttools6_2.0_iphoneos-arm.deb
+Size: 24060
+MD5sum: 1d03ee141a21a86d0a367e91c2bf37f0
