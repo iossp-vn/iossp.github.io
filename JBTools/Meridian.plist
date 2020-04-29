@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://p-def6.pcloud.com/cfZrxL8BuZLX9DjBZPr7J7ZZLVcla7Z2ZZqIzZZKh8EZU7ZBkZr0ZYFZs0ZvJZkpZ05Zv5ZC5Zg7ZIZ5FZvFZ4h51MKfyVLbCnK2hdsJTF8hsarIk/Meridian.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.iossp.meridian</string>
+				<key>bundle-version</key>
+				<string>0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Meridian 10.0 - 10.3.3 by Mọt Táo</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

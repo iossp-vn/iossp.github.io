@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://p-def3.pcloud.com/cfZ1Q58BuZ9I1DjBZPr7J7ZZ55cla7Z2ZZqIzZZRLMMZ1JZ27ZCFZskZJ5Z5kZ50Z20ZsFZY5ZaXZvFZi7ZKZpm4Cyr9Ia8FC7cN0UuKfyyjrHWuk/EtasonJB.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.iossp.etasonjb</string>
+				<key>bundle-version</key>
+				<string>0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>EtasonJB 8.4.1 by Mọt Táo</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
