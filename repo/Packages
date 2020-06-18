@@ -130,3 +130,16 @@ Maintainer: iOS Support <iossp@hotmail.com>
 Filename: .//Debs/com.iossp.yttools6_2.0_iphoneos-arm.deb
 Size: 24060
 MD5sum: 1d03ee141a21a86d0a367e91c2bf37f0
+
+Package: com.iossp.cacheclearer
+Name: CacheClearer
+Version: 0.1a
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001)
+Architecture: iphoneos-arm
+Author: Ryan Petrich
+Section: Tweaks
+Description: Xoá caches hoặc reset ứng dụng bất kỳ về như lúc mới cài đặt (iOS <=12).
+Maintainer: iOS Support <iossp@hotmail.com>
+Filename: .//Debs/com.iossp.cacheclearer_0.1a_iphoneos-arm.deb
+Size: 9258
+SHA256sum: DD4BEC4EFDF7103CC4EB347FD6E5863FD383E54EE602966FD1435D4BDA125F98
