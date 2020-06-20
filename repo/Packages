@@ -142,7 +142,7 @@ Description: Xoá caches hoặc reset ứng dụng bất kỳ về như lu�
 Maintainer: iOS Support <iossp@hotmail.com>
 Filename: .//Debs/com.iossp.cacheclearer_0.1a_iphoneos-arm.deb
 Size: 9258
-SHA256sum: DD4BEC4EFDF7103CC4EB347FD6E5863FD383E54EE602966FD1435D4BDA125F98
+MD5sum: aba1b2c1d0197a5772baa8471743e91f
 
 Package: com.iossp.cydiainstaller
 Name: Cydia Installer
@@ -158,4 +158,4 @@ Icon: file:///Applications/Cydia.app/Icon-60.png
 Maintainer: iOS Support <iossp@hotmail.com>
 Filename: .//Debs/com.iossp.cydiainstaller_1.1.32~b25_iphoneos-arm.deb
 Size: 1578804
-SHA256sum: 71D0AF7C2A55229DF1C3CDCECFDB31CAA6A534234D0060A7EF33449B12066870
+MD5sum: a9ec5053212ea65ff5caf11e7270b41a
