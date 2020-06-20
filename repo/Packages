@@ -143,3 +143,19 @@ Maintainer: iOS Support <iossp@hotmail.com>
 Filename: .//Debs/com.iossp.cacheclearer_0.1a_iphoneos-arm.deb
 Size: 9258
 SHA256sum: DD4BEC4EFDF7103CC4EB347FD6E5863FD383E54EE602966FD1435D4BDA125F98
+
+Package: com.iossp.cydiainstaller
+Name: Cydia Installer
+Version: 1.1.32~b25
+Depends: libapt | apt7-lib, apt-key | apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Architecture: iphoneos-arm
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Section: Packaging
+Description: Cydia.app v1.1.32b25.
+Depiction: https://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Maintainer: iOS Support <iossp@hotmail.com>
+Filename: .//Debs/com.iossp.cydiainstaller_1.1.32~b25_iphoneos-arm.deb
+Size: 1578804
+SHA256sum: 71D0AF7C2A55229DF1C3CDCECFDB31CAA6A534234D0060A7EF33449B12066870
