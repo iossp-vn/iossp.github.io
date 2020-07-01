@@ -145,18 +145,18 @@ Size: 9258
 MD5sum: aba1b2c1d0197a5772baa8471743e91f
 
 Package: com.iossp.milkyway
-Name: MilkyWay12
-Depends: mobilesubstrate, com.iossp.backgrounderaction11 | com.iossp.backgrounderaction12, Firmware(<13.0)
+Name: MilkyWay
+Depends: mobilesubstrate, com.iossp.backgrounderaction12
 Architecture: iphoneos-arm
-Description: Mở ứng dụng ở chế độ cửa sổ (iOS<=12).
+Description: multitasking for iOS. 
 Depiction: https://iossp.github.io/depiction/milkyway.html
 Maintainer: iOS Support <iossp@hotmail.com>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
-Version: 0.1.4
-Filename: .//Debs/com.iossp.milkyway_0.1.4_iphoneos-arm.deb
-Size: 53930
-MD5sum: 0226cce8963a6338a8896284e93403b6
+Version: 0.1.4beta
+Filename: .//Debs/com.iossp.milkyway_0.1.4beta_iphoneos-arm.deb
+Size: 53906
+MD5sum: 6a27c07b4adf7734f87c3e2aa3e27d0d
 
 Package: com.iossp.backgrounderaction11
 Name: BackgrounderAction
@@ -182,4 +182,4 @@ Section: Tweaks
 Version: 0.1.0
 Filename: .//Debs/com.iossp.backgrounderaction12_0.1.0_iphoneos-arm.deb
 Size: 21304
-MD5sum: 8d23d36499e504279859194cdb229b27
+MD5sum: 9f774e7316942605e375094576f73cd4
