@@ -163,3 +163,42 @@ Tag: purpose::uikit, cydia::essential, role::enduser
 Filename: .//Debs/com.iossp.cydiainstaller_1.1.32~b25_iphoneos-arm.deb
 Size: 1578750
 MD5sum: 0d8437d38423693b3c174dbba0d137f9
+
+Package: com.iossp.milkyway
+Name: MilkyWay12
+Depends: mobilesubstrate, com.iossp.backgrounderaction11 | com.iossp.backgrounderaction12, Firmware(<13.0)
+Architecture: iphoneos-arm
+Description: Mở ứng dụng ở chế độ cửa sổ (iOS<=12).
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: akusio <akusio-report@neko2.net>
+Section: Tweaks
+Version: 0.1.4
+Filename: .//Debs/com.iossp.milkyway_0.1.4_iphoneos-arm.deb
+Size: 53930
+MD5sum: 0226CCE8963A6338A8896284E93403B6
+
+Package: com.iossp.backgrounderaction11
+Name: BackgrounderAction
+Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
+Architecture: iphoneos-arm
+Description: Add "Toggle Background Mode" action to Activator.
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: akusio <akusio-report@neko2.net>
+Section: Tweaks
+Version: 0.0.8
+Filename: .//Debs/com.iossp.backgrounderaction11_0.0.8_iphoneos-arm.deb
+Size: 11242
+MD5sum: 6EB3A82E395C8A039D0FFB4371B963A5
+
+Package: com.iossp.backgrounderaction12
+Name: BackgrounderAction for CCSupport
+Depends: mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm
+Description: Add "Toggle Background Mode" action to ControlCenter.
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: akusio <akusio-report@neko2.net>
+Section: Tweaks
+Version: 0.1.0
+Filename: .//Debs/com.iossp.backgrounderaction12_0.1.0_iphoneos-arm.deb
+Size: 21304
+MD5sum: 8D23D36499E504279859194CDB229B27
