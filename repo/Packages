@@ -156,7 +156,7 @@ Section: Tweaks
 Version: 0.1.4
 Filename: .//Debs/com.iossp.milkyway_0.1.4_iphoneos-arm.deb
 Size: 53930
-MD5sum: 0226CCE8963A6338A8896284E93403B6
+MD5sum: 0226cce8963a6338a8896284e93403b6
 
 Package: com.iossp.backgrounderaction11
 Name: BackgrounderAction
@@ -169,7 +169,7 @@ Section: Tweaks
 Version: 0.0.8
 Filename: .//Debs/com.iossp.backgrounderaction11_0.0.8_iphoneos-arm.deb
 Size: 11242
-MD5sum: 6EB3A82E395C8A039D0FFB4371B963A5
+MD5sum: 6eb3a82e395c8a039d0ffb4371b963a5
 
 Package: com.iossp.backgrounderaction12
 Name: BackgrounderAction for CCSupport
@@ -182,4 +182,4 @@ Section: Tweaks
 Version: 0.1.0
 Filename: .//Debs/com.iossp.backgrounderaction12_0.1.0_iphoneos-arm.deb
 Size: 21304
-MD5sum: 8D23D36499E504279859194CDB229B27
+MD5sum: 8d23d36499e504279859194cdb229b27
