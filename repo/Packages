@@ -144,26 +144,6 @@ Filename: .//Debs/com.iossp.cacheclearer_0.1a_iphoneos-arm.deb
 Size: 9258
 MD5sum: aba1b2c1d0197a5772baa8471743e91f
 
-Package: com.iossp.cydiainstaller
-Name: Cydia Installer
-Priority: required
-Section: Packaging
-Maintainer: iOS Support <iossp@hotmail.com>
-Architecture: iphoneos-arm
-Version: 1.1.32~b25
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Depends: libapt | apt7-lib, apt-key | apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
-Provides: bigbossbetarepo, cydia-sources
-Description: Cydia.app.
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Tag: purpose::uikit, cydia::essential, role::enduser
-Filename: .//Debs/com.iossp.cydiainstaller_1.1.32~b25_iphoneos-arm.deb
-Size: 1578750
-MD5sum: 0d8437d38423693b3c174dbba0d137f9
-
 Package: com.iossp.milkyway
 Name: MilkyWay12
 Depends: mobilesubstrate, com.iossp.backgrounderaction11 | com.iossp.backgrounderaction12, Firmware(<13.0)
