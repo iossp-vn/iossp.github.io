@@ -144,22 +144,22 @@ Filename: .//Debs/com.iossp.cacheclearer_0.1a_iphoneos-arm.deb
 Size: 9258
 MD5sum: aba1b2c1d0197a5772baa8471743e91f
 
-Package: com.iossp.milkyway
+Package: jp.akusio.milkyway
 Name: MilkyWay
-Depends: mobilesubstrate, com.iossp.backgrounderaction11 | com.iossp.backgrounderaction12
+Depends: mobilesubstrate, jp.akusio.backgrounderaction11 | jp.akusio.backgrounderaction12
 Architecture: iphoneos-arm
 Description: multitasking for iOS. 
-Depiction: https://iossp.github.io/depiction/milkyway.html
+Depiction: http://akusio.github.io/descriptions/milkyway/index.html
 Maintainer: akusio <akusio-report@neko2.net>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.1.4beta
 Installed-Size: 208
-Filename: .//Debs/com.iossp.milkyway_0.1.4beta_iphoneos-arm.deb
-Size: 53916
-MD5sum: f80990a62f9351d71e424af2a2b84507
+Filename: .//Debs/jp.akusio.milkyway_0.1.4beta_iphoneos-arm.deb
+Size: 53886
+MD5sum: 16215e3679d0e50c00f46af56a2ce41d
 
-Package: com.iossp.backgrounderaction11
+Package: jp.akusio.backgrounderaction11
 Name: Backgrounder Action
 Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
 Architecture: iphoneos-arm
@@ -170,11 +170,11 @@ Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.0.8
 Installed-Size: 72
-Filename: .//Debs/com.iossp.backgrounderaction11_0.0.8_iphoneos-arm.deb
-Size: 11290
-MD5sum: b684e23ab55b61aea924a921fe60d967
+Filename: .//Debs/jp.akusio.backgrounderaction11_0.0.8_iphoneos-arm.deb
+Size: 11254
+MD5sum: 4e5f9a3bf7181ab56b9f92c62d052a2b
 
-Package: com.iossp.backgrounderaction12
+Package: jp.akusio.backgrounderaction12
 Name: BackgrounderAction for CCSupport
 Depends: mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm
@@ -185,6 +185,6 @@ Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.1.0
 Installed-Size: 276
-Filename: .//Debs/com.iossp.backgrounderaction12_0.1.0_iphoneos-arm.deb
-Size: 21334
-MD5sum: 9d7ede0c3dd089fafab0305c0096f5e9
+Filename: .//Debs/jp.akusio.backgrounderaction12_0.1.0_iphoneos-arm.deb
+Size: 21308
+MD5sum: 15173fd99097de7fbd73181cce6369ee
