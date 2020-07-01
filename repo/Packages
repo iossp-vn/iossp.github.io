@@ -146,40 +146,45 @@ MD5sum: aba1b2c1d0197a5772baa8471743e91f
 
 Package: com.iossp.milkyway
 Name: MilkyWay
-Depends: mobilesubstrate, com.iossp.backgrounderaction12
+Depends: mobilesubstrate, com.iossp.backgrounderaction11 | com.iossp.backgrounderaction12
 Architecture: iphoneos-arm
 Description: multitasking for iOS. 
 Depiction: https://iossp.github.io/depiction/milkyway.html
-Maintainer: iOS Support <iossp@hotmail.com>
+Maintainer: akusio <akusio-report@neko2.net>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.1.4beta
+Installed-Size: 208
 Filename: .//Debs/com.iossp.milkyway_0.1.4beta_iphoneos-arm.deb
-Size: 53906
-MD5sum: 6a27c07b4adf7734f87c3e2aa3e27d0d
+Size: 53916
+MD5sum: f80990a62f9351d71e424af2a2b84507
 
 Package: com.iossp.backgrounderaction11
-Name: BackgrounderAction
+Name: Backgrounder Action
 Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
 Architecture: iphoneos-arm
-Description: Add "Toggle Background Mode" action to Activator.
-Maintainer: iOS Support <iossp@hotmail.com>
+Description: *Currnetly in Beta* Add "Toggle Background Mode" action to Activator.
+Depiction: https://akusio.github.io/descriptions/backgrounderaction/index.html
+Maintainer: akusio <akusio-report@neko2.net>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.0.8
+Installed-Size: 72
 Filename: .//Debs/com.iossp.backgrounderaction11_0.0.8_iphoneos-arm.deb
-Size: 11242
-MD5sum: 6eb3a82e395c8a039d0ffb4371b963a5
+Size: 11290
+MD5sum: b684e23ab55b61aea924a921fe60d967
 
 Package: com.iossp.backgrounderaction12
 Name: BackgrounderAction for CCSupport
 Depends: mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm
 Description: Add "Toggle Background Mode" action to ControlCenter.
-Maintainer: iOS Support <iossp@hotmail.com>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
+Maintainer: akusio <akusio-report@neko2.net>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.1.0
+Installed-Size: 276
 Filename: .//Debs/com.iossp.backgrounderaction12_0.1.0_iphoneos-arm.deb
-Size: 21304
-MD5sum: 9f774e7316942605e375094576f73cd4
+Size: 21334
+MD5sum: 9d7ede0c3dd089fafab0305c0096f5e9
