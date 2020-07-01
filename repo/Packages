@@ -149,6 +149,7 @@ Name: MilkyWay12
 Depends: mobilesubstrate, com.iossp.backgrounderaction11 | com.iossp.backgrounderaction12, Firmware(<13.0)
 Architecture: iphoneos-arm
 Description: Mở ứng dụng ở chế độ cửa sổ (iOS<=12).
+Depiction: https://ipamarket.github.io/depiction/milkyway.html
 Maintainer: iOS Support <iossp@hotmail.com>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
