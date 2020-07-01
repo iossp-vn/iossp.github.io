@@ -149,8 +149,8 @@ Name: MilkyWay
 Depends: mobilesubstrate, jp.akusio.backgrounderaction11 | jp.akusio.backgrounderaction12
 Architecture: iphoneos-arm
 Description: multitasking for iOS. 
-Depiction: http://akusio.github.io/descriptions/milkyway/index.html
-Maintainer: akusio <akusio-report@neko2.net>
+Depiction: http://iossp.github.io/depiction/milkyway.html
+Maintainer: iOS Support <iossp@hotmail.com>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.1.4beta
@@ -163,9 +163,8 @@ Package: jp.akusio.backgrounderaction11
 Name: Backgrounder Action
 Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
 Architecture: iphoneos-arm
-Description: *Currnetly in Beta* Add "Toggle Background Mode" action to Activator.
-Depiction: https://akusio.github.io/descriptions/backgrounderaction/index.html
-Maintainer: akusio <akusio-report@neko2.net>
+Description: Add "Toggle Background Mode" action to Activator.
+Maintainer: iOS Support <iossp@hotmail.com>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.0.8
@@ -179,8 +178,7 @@ Name: BackgrounderAction for CCSupport
 Depends: mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm
 Description: Add "Toggle Background Mode" action to ControlCenter.
-Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
-Maintainer: akusio <akusio-report@neko2.net>
+Maintainer: iOS Support <iossp@hotmail.com>
 Author: akusio <akusio-report@neko2.net>
 Section: Tweaks
 Version: 0.1.0
