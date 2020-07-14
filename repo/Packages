@@ -247,7 +247,7 @@ Name: Spotify++
 Depends: mobilesubstrate
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Premium features for Spotify [v2.0.0 - v2.5.0].
+Description: Premium features for Spotify (<=2.5.0).
 Maintainer: iOS Support <iossp@hotmail.com>
 Author: Vincent Lim
 Section: Tweaks
