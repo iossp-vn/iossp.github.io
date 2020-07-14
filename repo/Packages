@@ -215,3 +215,42 @@ Installed-Size: 244
 Filename: .//Debs/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
 Size: 14078
 MD5sum: c310760bda4ccc7e5ed3722aed9ef7de
+
+Package: com.iossp.ggloginfix
+Name: Google Login Fix
+Depends: mobilesubstrate, firmware (>= 6.0)
+Architecture: iphoneos-arm
+Description: iOS 6 Applications are loggable with google account.
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: Invoxi
+Section: Tweaks
+Version: 1.0
+Filename: .//Debs/com.iossp.ggloginfix_1.0_iphoneos-arm.deb
+Size: 3940
+MD5sum: 8e33b576878437213d3962280de48d9d
+
+Package: com.iossp.legacyyoutube
+Name: Legacy YouTube
+Architecture: iphoneos-arm
+Author: 
+Depends: firmware (>= 6.0)
+Description: Stock Youtube app on iOS 6~.
+Maintainer: iOS Support <iossp@hotmail.com>
+Section: Applications
+Version: 1.0.0
+Filename: .//Debs/com.iossp.legacyyoutube_1.0.0_iphoneos-arm.deb
+Size: 311140
+MD5sum: f97be12ca53e6e7df67031a4811a3c77
+
+Package: com.iossp.spotify++
+Name: Spotify++
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Premium features for Spotify [v2.0.0 - v2.5.0].
+Maintainer: iOS Support <iossp@hotmail.com>
+Author: Vincent Lim
+Section: Tweaks
+Filename: .//Debs/com.iossp.spotify++_1.0_iphoneos-arm.deb
+Size: 12970
+MD5sum: 7af32868e86887ee7d743515d91cb87a
